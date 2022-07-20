@@ -1,0 +1,20 @@
+#/etc/systemd/system/F5snmpMetrics.service
+[Unit]
+Description="Gather F5 BigIP SNMP metrics and display at /metrics endpoint"
+Documentation=https://dev-gitlab.dev.rph.int/rollout/f5snmpmetrics
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+User=root
+Group=root
+ExecStart=/opt/F5snmpMetrics/F5snmpMetrics
+Restart=on-failure
+RestartSec=5
+KillMode=process
+SyslogIdentifier=F5snmpMetrics
+StandardOutput=journal+console
+StandardError=journal+console
+
+[Install]
+WantedBy=multi-user.target

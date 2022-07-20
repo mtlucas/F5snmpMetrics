@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>F5snmpMetrics</id>
+    <title>F5snmpMetrics</title>
+    <version>$version$</version>
+    <authors>Michael Lucas (mike@lucasnet.org)</authors>
+    <copyright>Copyright 2022</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Present /metrics endpoint for Prometheus to scrape F5 Load Balancer SNMP values.</description>
+    <projectUrl>https://github.com/mtlucas/F5snmpMetrics</projectUrl>
+  </metadata>
+  <files>
+    <file src="bin\Debug\net6.0\**" exclude="**\appsettings.json;**\appsettings.Development.json;" />
+  </files>
+</package>

@@ -1,0 +1,76 @@
+########################################################
+# 
+# Visual Studio temporary files, build results, etc
+#
+########################################################
+
+# User-specific files
+*.suo
+*.user
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Tt]emp/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.DotSettings
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# node.js modules directory
+node_modules/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+*.ncrunchsolution
+*.ncrunchproject
+
+# Ignore all directories called Logs anywhere below the current level
+Logs/
+/.project
+*.log
+
+# Visual Studio 2015 cache/options directory
+.vs/
+.vscode/
+.ionide/
+
+# WebStorm IDE project files
+.idea/
+
+# Generated configs
+/appSettings.json
+
+# Ignore merge artifacts and .old files
+*.orig
+*.old
+
+# Web host wwwroot experimental
+/wwwroot/scripts
+/wwwroot/fonts
+/wwwroot/css
+
+# Nuke dynamic files
+/.nuke/build.schema.json
+
+# Artifacts
+/artifacts
+.fake
